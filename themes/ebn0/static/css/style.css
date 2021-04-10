@@ -1,0 +1,67 @@
+body {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 40em;
+    min-width: min-content;
+    line-height: 1.75;
+    font-family: sans-serif;
+    color: #4b253b;
+    background-color: #fffffd;
+}
+code {
+    background-color: #f2f3f0;
+    padding: 1ex;
+}
+a {
+    color: #4000e9;
+}
+a:visited {
+    color: #891e69;
+}
+a:hover {
+    color: #ff0048;
+}
+h1 > * .MJX-TEX {
+    font-size: 128%;
+}
+nav>ul {
+    padding: 0;
+  overflow: hidden;
+}
+nav>ul>li {
+  float: left;
+  display: block;
+  padding: 0 1em 0 0;
+}
+ol#post-list {
+    list-style: none;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+figure {
+    margin: 0; 
+}
+figcaption { 
+    padding: 2ex 2em 0 2em;
+    font-style: italic;
+}
+blockquote {
+    background-color: #f2f3f0;
+    border-left-width: 1px;
+    border-left-style: dotted;
+    padding: 1em;
+    margin: 0;
+}
+blockquote>p {
+    margin: 0;
+}
+.modified {
+    font-style: italic;
+}
+.modified::before {
+    content: "Updated ";
+}

@@ -1,0 +1,7 @@
+{% extends "!simple/article.html" %}
+
+{% block content %}
+  {{ super() }}
+  <h2>Comments</h2>
+  {% include 'utterances.html' %}
+{% endblock %}
