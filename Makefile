@@ -10,7 +10,7 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 SSH_HOST=q3q.net
 SSH_PORT=22
-SSH_USER=root
+SSH_USER=user
 SSH_TARGET_DIR=/var/www/html
 
 
